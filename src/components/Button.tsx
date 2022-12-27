@@ -20,6 +20,7 @@ const StyledButton = styled.button<IStyledButton>(({ theme, active }) => ({
 }));
 function Button() {
   const [active, setAcitve] = useState(false);
+
   return (
     <Container>
       <StyledButton active={active} onClick={() => setAcitve((prev) => !prev)}>

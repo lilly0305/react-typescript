@@ -1,7 +1,7 @@
 import { Theme } from '@emotion/react';
 
 export const image = {
-  image01: './assets/images/image01.jpg',
+  image01: require('@assets/images/image01.jpg'),
 };
 
 export const AppTheme: Theme = {
