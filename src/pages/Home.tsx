@@ -1,6 +1,7 @@
 import React, { memo } from 'react';
 
-import { Button, Image } from '../components';
+import Button from '@components/Button';
+import Image from '@components/Image';
 
 function Home() {
   return (

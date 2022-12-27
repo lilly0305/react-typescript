@@ -1,8 +1,7 @@
 import React, { memo } from 'react';
 import { ThemeProvider } from '@emotion/react';
-
-import Home from './pages/Home';
 import AppTheme from './theme';
+import { Home } from './pages';
 
 function App() {
   return (
