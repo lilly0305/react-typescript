@@ -3,9 +3,9 @@ import React from 'react';
 import styled from '@emotion/styled';
 import { useTheme } from '@emotion/react';
 
-const StyledImage = styled.image(() => ({
-  width: '100',
-  height: '100',
+const StyledImage = styled.div(() => ({
+  width: '100px',
+  height: '100px',
 }));
 
 function Image() {
